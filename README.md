@@ -35,6 +35,7 @@ map, filter, reduce etc
 ## Functional Programming
 mainly JS
 Closures, Pure functions, Higher order functions, currying
+There's the [article we wrote about functional programming](https://www.sitepoint.com/make-javascript-functional/) as well
 
 ## OOP
 mainly python
