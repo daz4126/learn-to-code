@@ -3,6 +3,10 @@
 The ultimate guide to learning to code in the world's two most popular languages!
 By JOG
 
+We need to decide about exercises/challenges for the end of each chapter
+Also should there be a big project that builds up throughout the book or just exercises to do? I think I prefer exercises rather than a big challenge
+I also think it might be a god idea to link to Code Wars challenges that are suitable at various stages
+
 ## Intro, programming, pseudocode
 
 ##  Python vs Js 
