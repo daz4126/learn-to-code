@@ -7,6 +7,8 @@ We need to decide about exercises/challenges for the end of each chapter
 Also should there be a big project that builds up throughout the book or just exercises to do? I think I prefer exercises rather than a big challenge
 I also think it might be a god idea to link to Code Wars challenges that are suitable at various stages
 
+# Section 1: Introduction, Syntax and Key Features
+
 ## Intro, programming, pseudocode
 
 ##  Python vs Js 
@@ -52,8 +54,10 @@ strings, arrays, objects/dictionaries, tuples, lists
 Neither Python or JS actually have an array property and simply use their list properties to mimic this []
 Objects in Python usually get referred to as instanciated classes in OOP, whereas an object in JS is the same as a dictionary in Python: a data structure that is made up of key-value pairs.
 
-String manipulation (pretty much same for both), methods eg slice (python shortcut of [:]), splice (sehr bad), indexing, split
+String manipulation (pretty much same for both), methods eg slice (python shortcut of [:]), splice (sehr bad), indexing, split, regular expressions?
 List manipulation (similar), indexing 
+
+# Section 2 - Making your programs more advanced
 
 ## Logic 
 if statements, AND OR NOT gates, binary logic, one if statements - ternaries
@@ -93,6 +97,8 @@ JS can also write as an arrow function.
 ## DOM/Event listeners? 
 Do we find python equivalent? Or just do we just do programming and ignore this part completely?
 
+# Section 3 - making your programs more advanced, improving efficiency and more specialist tricks
+
 ## Data structure methods
 map, filter, reduce etc
 
@@ -105,23 +111,63 @@ JS makes you define a running total.
 
 In JS these are list methods, in Python they are inbuilt functions.
 
+## Times/Dates
+Date objects
+setTimeout and setInterval
+
+# Section 4 - Programming Paradigms
+Even though both languages are multi-paradigm, the recent updates to JS mean that JS can now support functional programming much better than Python. OOP in JS has always been very dodgy, barely used at all. However, OOP in Python (normally where people first learn OOP) has always been popular.
+
+Therefore, having both languages under your belt mean that you will have a very solid grounding in the three main programming paradigms (Imperative, Functional and Object-Oriented)
+
 ## Functional Programming
 mainly JS
 Closures, Pure functions, Higher order functions, currying
 There's the [article we wrote about functional programming](https://www.sitepoint.com/make-javascript-functional/) as well
 
+When/why is functional used + comparison to imperative/OOP
+
 ## OOP
 mainly python
 
-## Times/Dates
-Date objects
-setTimeout and setInterval
+What is OOP?
+
+Create data structures called objects that describe a real-life 'thing' (find a better word), such as pet, car, animal, house, etc. Comprised of attributes and methods. An attribute is a property of the 'thing', e.g hair colour, and a method is a function/procedure that is used to update or access the current attributes.
+
+Inheritance, Encapsulation and Polymorphism
+
+When/why is OOP used + comparison to imperative/functional.
+
+# Section 5 - using JS and Python in the real world
 
 ## Async programming
 Await and promises
 
 ## Becoming a Developer
-Using GitHub and deployment, testing, linting, using VS Code
+Using GitHub and deployment, testing, linting, using VS Code, version control, software development methodologies.
+
+## Using libraries/frameworks
+Even though everyone begins by learning the main language in either Python or JS, most developer jobs (web or software) will typically as you to have familiarity with certain language libraries and frameworks. This is because the frameworks and libraries have been designed to make coding much more efficient. 
+
+What is a framework? 
+
+What is a library?
+
+How do they work?
+
+JS: React, Angular, Svelte, jQuery (frameworks)
+
+Comparison.
+
+Python: Django, Flask
+
+Python also makes use of mathematical libraries numpy and matplotlib, for modelling data, very important for careers in AI or research etc.
+
+## Interacting with the server
+JS: using node, JSON data and rest API. Build your first app in node.
+Python: using flask.
+
+
 
 ## Other Ideas
 Using apis
